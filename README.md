@@ -1,6 +1,6 @@
 # LoRA Training Image Captioner
 
-Automated training data pipeline using GPT-4V vision to generate high-quality captions for LoRA fine-tuning.
+Automated training data pipeline using GPT-5 Mini vision to generate high-quality captions for LoRA fine-tuning.
 
 ## Results
 
@@ -74,7 +74,7 @@ the left, urban park background with blurred trees, candid lifestyle photography
 |------|-------------|
 | `--folder`, `-f` | Path to images folder (required) |
 | `--trigger`, `-t` | Your trigger word (required) |
-| `--model`, `-m` | OpenAI model (default: `gpt-4-vision-preview`) |
+| `--model`, `-m` | OpenAI model (default: `gpt-5-mini`) |
 | `--preview`, `-p` | Preview without saving |
 | `--overwrite`, `-o` | Overwrite existing captions |
 
@@ -87,7 +87,7 @@ the left, urban park background with blurred trees, candid lifestyle photography
 
 ## Tech Stack
 
-- **Vision Model**: GPT-4V (gpt-4-vision-preview)
+- **Vision Model**: GPT-5 Mini
 - **Language**: Python 3.8+
 - **API**: OpenAI Python SDK
 
